@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+            th{
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width: 100%;">
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">parent name</th>
+                </tr>
+                <tr>
+                    <td>srinu</td>
+                    <td>ramu</td>
+                    <td>chandu</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form>
+            <br><input type="text" id="name" placeholder="enter your name"><br>
+            <input type="checkbox" id="checkme">this is a check box<br>
+            <input type="date" id="date"><br>
+            <input type="email" id="email" placeholder="enter your email" required><br>
+            <input type="tel" id="phone" placeholder="enter your phone number" required><br>
+            <input type="file" id="user_document" placeholder="upload your file"><br>
+            <textarea id="address" placeholder="enter your address"></textarea><br>
+            <select id="select city">
+                <option>choose a city</option>
+                <optgroup label="Andhra Pradesh">
+                    <option>prakasam</option>
+                    <option>vijayawada</option>
+                </optgroup>
+                <optgroup label="Telangana">
+                    <option>hyderbad</option>
+                    <option>secundrabad</option>
+                </optgroup>
+            </select><br>
+            <button type="submit" >submit</button><br>
+            <audio controls>
+                <source src = "C:\Users\srinu vandavasi\Videos\[iSongs.info] 02 - Gaali Vaaluga.MP3" type="audio/MP3">
+            </audio><br>
+            <video width="300" height="240" controls>
+                <source src = "C:\Users\srinu vandavasi\Videos\Clean_Bandit_-_Solo_(feat._Demi_Lovato)_[Official_Video](2K).WEBM" type="video/WEBM"> 
+            </video>
+        </form>
+    </body>
+</html>
